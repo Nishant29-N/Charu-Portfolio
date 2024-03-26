@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body{
+    background-color: #191919;
+    font-family: Montserrat;
+}
+
+.header-container{
+    position: sticky;
+    top: 0;
+    padding-bottom: 10px;
+}
+.navbar-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* z-index: 999; */
+    box-shadow: 1px 1px 7px #eeeeee;
+    flex-direction: row;
+    width: 100%;
+    max-height: 90px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #191919;
+}
+
+.header-logo-png{
+    width: 10%;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+.navbar-container > ul{
+    display: block;
+}
+
+.navbar-container > ul > li{
+    text-decoration: none;
+    display: inline-block;
+}
+.navbar-container > ul > li > a{
+    color: #eeeeee;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 50px;
+}
+
+.navbar-container > ul > li > a:hover{
+    color: #0078ff;
+    font-weight: 700;
+    font-size: 21px;
+    transition: 0.4s;
+}
+
+
+.main-landing-page{
+    background-color: #e4e4e4;
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 20px ;
+    margin: auto;
+    margin: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.info-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.info-section > h2{
+    font-size: 20px;
+    margin: 0;
+    color: #161616;
+}
+
+.info-section > h1{
+    font-size: 50px;
+    color: #0078ff;
+    margin: 0;
+}
+
+.info-section > p{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.main-landing-page > img{
+    width: 50%;
+    border-radius: 10px;
+    height: 500px;
+    margin: 30px;
+}
+
+#about{
+    margin-top: 10px;
+}
+
+.about-me-container{
+    background-color: #e4e4e4;
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 20px ;
+    margin: auto;
+    margin: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.about-me-container > img{
+    width: 50%;
+    border-radius: 10px;
+    height: 500px;
+    margin: 30px;
+}
