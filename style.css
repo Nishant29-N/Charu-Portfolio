@@ -213,7 +213,7 @@ body{
 }
 .portfolio-container > h1{
     position: sticky;
-    padding-top: 400px;
+    padding-top: 1100px;
 }
 
 .work-list{
@@ -227,6 +227,10 @@ body{
     justify-content: center;
     /* overflow: scroll; */
     margin-top: 50px;
+}
+
+.fa-solid.fa-arrow-up-right-from-square{
+    color: #0a0a0a;
 }
 
 ::-webkit-scrollbar {
