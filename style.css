@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
-
+*{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #191919;
     font-family: Montserrat;
@@ -19,7 +21,7 @@ body{
 .navbar-container{
     display: flex;
     flex-wrap: wrap;
-    z-index: 999;
+    z-index: 99999;
     box-shadow: 1px 1px 7px #eeeeee;
     flex-direction: row;
     width: 100%;
@@ -38,6 +40,8 @@ body{
 
 .navbar-container > ul{
     display: block;
+    margin-right: 80px;
+    margin-bottom: 30px
 }
 
 .navbar-container > ul > li{
@@ -222,6 +226,7 @@ body{
     column-gap: 10px;
 }
 .work > img{
+    z-index: 1;
     width: 400px;
     height: 300px;
     border-radius: 10px;
